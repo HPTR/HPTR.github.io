@@ -1,55 +1,66 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
-}
+} */
 body {
     background-color: #242424;
     color:white;
     font-family:Arial, Helvetica, sans-serif;
     margin: 40px 40px;
 }
-.fullWidth {
-    padding: 10% 0px;
+
+.linkContainer {
+    height: 240px;
+    width: 100%;
+    display: block;
+    background-color: crimson;
+}
+
+.leftLink {
+
     width: 50%;
+    height: 100%;
+    display: inline-block;
+    left: 0;
+    top: 0;
+
+    background-color: #303030;
+    background-image: url("/img/review.PNG");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.rightLink {
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    float: right;
+
+    background-color: white;
+    background-image: url("/img/github.png");
+    background-size: 25%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.githubLink, .projectLink {
+    width: 100%;
+    height: 100%;
+    line-height: 235%;
     display: block;
     text-align: center;
-    float:left;
-    color: black;
+    font-size: 102px;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.5s;
+    background-color: black;
     filter: brightness(100%);
+    text-decoration: none;
+    font-weight: 600;
 }
-.fullWidth span {
-    color: black;
-    font-size: 5em;
-    font-weight: bolder;
-    visibility: hidden;
+
+.leftLink a:hover, .rightLink a:hover {
+    opacity: 0.7;
+    transition: opacity 0.5s;
 }
-.fullWidth.github {
-    background-image: url("img/github.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 20em;
-    background-color: white;
-    transition: filter 0.7s;
-}
-.fullWidth.review {
-    background-image: url("img/REVIEW.PNG");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 80%;
-    background-color: #303030;
-    transition: filter 0.7s;
-}
-.fullWidth:hover {
-    filter: brightness(30%);
-    transition: filter 0.7s
-}
-.fullWidth span:hover {
-    visibility: visible;
-    transition: visibility 0.7s;
-}
-p {
-    float: left;
-}
-/* So this all went kind of strange. I got the links sized well and they now fade correctly, but I can't get the text to fade in as the brightness setting applies to the text within the link. I think currently that the best way to approach this now would be to
-change the CSS rules from applying to the links directly to applying to a div containing the link, unless there is a way to get a div or paragraph to appear over the current link boxes but I'm not sure how likely that is. Having the whole thing encompassed by a
-div would give me much more control over what changes on hover. */
