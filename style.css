@@ -26,7 +26,7 @@ body {
 
     background-color: #303030;
     background-image: url("/img/review.PNG");
-    background-size: 80%;
+    background-size: 40%;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -39,7 +39,7 @@ body {
 
     background-color: white;
     background-image: url("/img/github.png");
-    background-size: 25%;
+    background-size: 15%;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -58,7 +58,6 @@ body {
     filter: brightness(100%);
     text-decoration: none;
     font-weight: 600;
->>>>>>> parent of ddf5d00... Add project and github link styling
 }
 
 .leftLink a:hover, .rightLink a:hover {
