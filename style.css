@@ -64,3 +64,11 @@ body {
     opacity: 0.7;
     transition: opacity 0.5s;
 }
+
+h1, h2, h3 {
+    color: rgb(80, 78, 235);
+}
+
+p {
+    color:rgb(192, 180, 238)
+}
