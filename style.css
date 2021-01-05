@@ -47,6 +47,7 @@ body {
     visibility: visible;
     transition: visibility 0.7s;
 }
+
 p {
     float: left;
 }
