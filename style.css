@@ -67,3 +67,10 @@ h1, h2, h3 {
 p {
     color:rgb(192, 180, 238)
 }
+#WDS {
+    background-color: white;
+    background-image: url("/img/wds.PNG");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
