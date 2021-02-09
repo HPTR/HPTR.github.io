@@ -13,15 +13,13 @@ body {
 
 nav {
     position: fixed;
-    top: -1px;
+    top: 0;
     display: flex;
     margin: 0;
     padding: 0;
     height: 80px;
     width: 100%;
-    flex-wrap: nowrap;
     justify-content: space-evenly;
-    flex-direction: row;
     align-items: center;
 }
 
