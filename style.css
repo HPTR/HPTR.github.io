@@ -1,8 +1,53 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: #242424;
     color: white;
     font-family:Arial, Helvetica, sans-serif;
-    margin: 40px 40px;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    position: fixed;
+    top: -1px;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 80px;
+    width: 100%;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+}
+
+nav a {
+    display: block;
+    background-color: #222222;
+    padding: 30px;
+    margin: 0;
+    width: 20%;
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    animation-name: navhover;
+    animation-duration: 1s;
+}
+
+@keyframes navhover {
+    from {background-color: #222222;} to {background-color: slategrey;}
+}
+
+.banner {
+    top: 80px;
 }
 
 .linkContainer {
@@ -62,8 +107,24 @@ body {
 
 h1, h2, h3 {
     color: rgb(80, 78, 235);
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 60%;
+    text-align: center;
 }
 
 p {
-    color:rgb(192, 180, 238)
+    color:rgb(192, 180, 238);
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 60%;
+    line-height: 1.5em;
+    font-size: 1.3em;
+}
+#WDS {
+    background-color: white;
+    background-image: url("/img/wds.PNG");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
