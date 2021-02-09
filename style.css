@@ -46,6 +46,8 @@ nav a:hover {
     from {background-color: #222222;} to {background-color: slategrey;}
 }
 
+.banner {
+    top: 80px;
 }
 
 .linkContainer {
