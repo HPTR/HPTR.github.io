@@ -30,14 +30,21 @@ nav a {
     margin: 0;
     width: 20%;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     color: white;
     text-decoration: none;
     transition: 0.2s;
+    white-space: nowrap;
 }
 
 nav a:hover {
     background-color: #444444;
+}
+
+@media only screen and (max-width: 700px) {
+    nav a {
+        font-size: 1rem;
+    }
 }
 
 .banner {
@@ -123,9 +130,3 @@ p {
     background-position: center;
 }
 
-@media only screen and (max-width: 600px) {
-    #me {
-        display: none;
-        font-size: 20px;
-    }
-}
