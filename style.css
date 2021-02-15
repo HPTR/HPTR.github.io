@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    background-color: #242424;
+    background-color: #00102e;
     color: white;
     font-family:Arial, Helvetica, sans-serif;
     margin: 0;
@@ -25,7 +25,7 @@ nav {
 
 nav a {
     display: block;
-    background-color: #222222;
+    background-color: #00102e;
     padding: 30px;
     margin: 0;
     width: 20%;
@@ -38,7 +38,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #444444;
+    background-color: #001a4b;
 }
 
 @media only screen and (max-width: 700px) {
