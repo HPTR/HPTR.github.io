@@ -183,3 +183,7 @@ footer a {
     color:rgb(192, 180, 238)
 }
 
+#contactContainer {
+    display: flex;
+    justify-content: center;
+}
