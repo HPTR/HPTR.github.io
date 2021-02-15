@@ -160,3 +160,11 @@ p {
     background-position: center;
 }
 
+#final {
+    padding-bottom: 0;
+}
+
+#skills {
+    padding-top: 80px;
+}
+
