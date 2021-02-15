@@ -81,8 +81,10 @@ nav a:hover {
 
 .linkContainer {
     height: 240px;
-    width: 100%;
-    display: block;
+    width: 75%;
+    display: flex;
+    margin: 0 auto;
+    box-shadow: -10px -50px 10px -50px #00102e inset;
 }
 
 .leftLink {
