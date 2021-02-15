@@ -61,6 +61,12 @@ nav a:hover {
 
 }
 
+.banner h1 {
+    color: rgb(59, 183, 255);
+    font-family: 'Source Code Pro', monospace;
+    font-size: 600%;
+}
+
 .linkContainer {
     height: 240px;
     width: 100%;
