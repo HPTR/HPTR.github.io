@@ -91,7 +91,7 @@ nav a:hover {
 
     width: 50%;
     height: 100%;
-    display: inline-block;
+    display: flex;
     left: 0;
     top: 0;
 
@@ -105,8 +105,7 @@ nav a:hover {
 .rightLink {
     width: 50%;
     height: 100%;
-    display: inline-block;
-    float: right;
+    display: flex;
 
     background-color: white;
     background-image: url("/img/github.png");
@@ -118,10 +117,11 @@ nav a:hover {
 .githubLink, .projectLink {
     width: 100%;
     height: 100%;
-    line-height: 235%;
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    font-size: 102px;
+    font-size: 6em;
     color: white;
     opacity: 0;
     transition: opacity 0.5s;
