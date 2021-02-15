@@ -67,6 +67,14 @@ nav a:hover {
     font-size: 600%;
 }
 
+#aboutme {
+    padding-top: 80px;
+}
+
+#projects {
+    padding-top: 80px;
+}
+
 .linkContainer {
     height: 240px;
     width: 100%;
