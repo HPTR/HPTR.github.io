@@ -4,11 +4,12 @@ html {
 }
 
 body {
-    background-color: #242424;
+    background-color: #00102e;
     color: white;
     font-family:Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
+    padding-top: 80px;
 }
 
 nav {
@@ -25,7 +26,7 @@ nav {
 
 nav a {
     display: block;
-    background-color: #222222;
+    background-color: #00102e;
     padding: 30px;
     margin: 0;
     width: 20%;
@@ -38,7 +39,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #444444;
+    background-color: #001a4b;
 }
 
 @media only screen and (max-width: 700px) {
@@ -48,20 +49,49 @@ nav a:hover {
 }
 
 .banner {
-    top: 80px;
+    display: flex;
+    height: 200px;
+    background-image: url("./img/18160.jpg");
+    background-position: 50%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    box-shadow: 0px -42px 10px -20px #00102e inset;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.banner h1 {
+    color: rgb(59, 183, 255);
+    font-family: 'Source Code Pro', monospace;
+    font-size: 600%;
+}
+
+#aboutme {
+    padding-top: 80px;
+}
+
+#projects {
+    padding-top: 80px;
+}
+
+.projectSection {
+    padding: 0 0 50px 0;
 }
 
 .linkContainer {
     height: 240px;
-    width: 100%;
-    display: block;
+    width: 75%;
+    display: flex;
+    margin: 0 auto;
+    box-shadow: -10px -50px 10px -50px #00102e inset;
 }
 
 .leftLink {
 
     width: 50%;
     height: 100%;
-    display: inline-block;
+    display: flex;
     left: 0;
     top: 0;
 
@@ -75,8 +105,7 @@ nav a:hover {
 .rightLink {
     width: 50%;
     height: 100%;
-    display: inline-block;
-    float: right;
+    display: flex;
 
     background-color: white;
     background-image: url("/img/github.png");
@@ -88,10 +117,11 @@ nav a:hover {
 .githubLink, .projectLink {
     width: 100%;
     height: 100%;
-    line-height: 235%;
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    font-size: 102px;
+    font-size: 6em;
     color: white;
     opacity: 0;
     transition: opacity 0.5s;
@@ -130,3 +160,30 @@ p {
     background-position: center;
 }
 
+#final {
+    padding-bottom: 0;
+}
+
+#skills {
+    padding-top: 80px;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+
+footer {
+    background-color: #001a4b;
+    text-align: center;
+}
+
+footer a {
+    color:rgb(192, 180, 238)
+}
+
+#contactContainer {
+    display: flex;
+    justify-content: center;
+}
