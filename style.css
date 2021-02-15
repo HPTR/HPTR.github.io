@@ -174,3 +174,12 @@ p {
     height: 100px;
 }
 
+footer {
+    background-color: #001a4b;
+    text-align: center;
+}
+
+footer a {
+    color:rgb(192, 180, 238)
+}
+
